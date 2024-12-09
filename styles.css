@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-bottom: 3rem;
+    height: 111vh;
+    background-image: url(./image/Background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+ /* border: 2px solid; */
+ /* padding-block: 1rem;    */
+}
+.gen-layout{
+    max-width: 1000px;
+    margin: auto ;
+}
+.inner-nav{
+    /* background-color: red; */
+     width: 79rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    height: 80px;
+    /* justify-content: space-around; */
+}
+
+.inner-nav >h1{
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 6rem;
+}
+
+.nav-right{
+    /* border: 2px solid blue; */
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.nav-item{
+    /* border: 2px solid; */
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-item > a{
+    background: linear-gradient(rgba(255, 0, 0, 0.696), #003258, rgb(239, 62, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 900;
+    font-family: "Princess Sofia", cursive;
+}
+
+.nav-item > a:first-child{
+    color: #ee4f0e;
+    font-weight: 600;
+}
+
+.btn-btn > button{
+    padding: .7rem 1.6rem;
+    border-radius: 5px;
+    /* background-color: red; */
+    background: linear-gradient(#ff00009c, rgb(87, 0, 95));
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    border: none;
+    color: #fff;
+}
+
+.banner{
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 20rem;
+    border-radius: 50px;
+    height: 90vh;
+    width: 100rem;
+    align-items: center;
+    background-image: url(./image/Subb.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* margin-block: 2rem; */
+  }
+
+.banner-content{
+    width: 25%;
+    margin-left: 1.5rem;
+}
+
+.banner-content > h1{
+    font-size: 3rem;
+    display: flex;
+    width: 450px;
+    margin-left: 7rem;
+    /* border: 2px solid blue; */
+    font-family: "Princess Sofia", cursive;
+    color: white;
+}
+.banner-content > h1 > span{
+    color: #b70c00;
+}
+
+.banner-content > h1 >p{
+    color: rgba(0, 123, 255, 0.486);
+}
+
+.banner-content >h4{
+    color: white;
+    margin-left: 13rem;
+    margin-block: 1rem;
+    width: 200px;
+    font-family: "Dancing Script", cursive;
+}
+
+.banner-content > p{
+    width: 570px;
+    opacity: .7;
+    color: white;
+}
+
+.banner-content > p >span{
+    color: rgb(0, 183, 255);
+}
+
+.banner-image{
+    width: 35%;
+    /* height: 64vh; */
+    /* border: 8px solid #f6aa87; */
+}
+
+.banner-image > img{
+    width: 100%;
+}
