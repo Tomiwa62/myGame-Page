@@ -35,8 +35,16 @@ nav{
 .inner-nav >h1{
     font-family: "Lobster", sans-serif;
     font-size: 30px;
+    display: flex;
     font-weight: 900;
     margin-left: 6rem;
+}
+
+.inner-nav >h1 >p{
+    /* border: 2px solid; */
+    height: 60px;
+    margin-top: -5px;
+    *{ font-weight: bolder;}
 }
 
 .nav-right{
