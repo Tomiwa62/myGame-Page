@@ -93,7 +93,7 @@ nav{
     /* border: 2px solid blue; */
     display: flex;
     gap: 20rem;
-    border-radius: 50px;
+    border-radius: 30px;
     height: 90vh;
     width: 100rem;
     align-items: center;
@@ -106,17 +106,25 @@ nav{
 .banner-content{
     width: 25%;
     margin-left: 1.5rem;
+    /* border: 2px solid blue; */
 }
 
 .banner-content > h1{
     font-size: 3rem;
     display: flex;
-    width: 450px;
+    width: 410px;
     margin-left: 7rem;
-    /* border: 2px solid blue; */
     font-family: "Princess Sofia", cursive;
     color: white;
 }
+
+.banner-content >img{
+    /* font-weight: 900; */
+    color: white;
+    margin-left: 17rem;
+    width: 62px;
+}
+
 .banner-content > h1 > span{
     color: #b70c00;
 }
@@ -133,14 +141,13 @@ nav{
     font-family: "Dancing Script", cursive;
 }
 
-.banner-content > p{
-    width: 570px;
-    opacity: .7;
+.banner-content >h2{
     color: white;
-}
-
-.banner-content > p >span{
-    color: rgb(0, 183, 255);
+    font-size: 18px;
+    border: 2px solid red;
+    width: 32rem;
+    margin-block: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .banner-image{
@@ -151,4 +158,21 @@ nav{
 
 .banner-image > img{
     width: 100%;
+}
+
+.bigbox{
+    border: 2px solid blue;
+}
+
+.box1{
+    border: 2px solid red;
+    height: 55vh;
+    width: 20.05rem;
+    color: white;
+    background-color: #b70c00;
+}
+
+.box1 >img{
+    height: 17.5rem;
+    width: 19.8rem;
 }
