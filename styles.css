@@ -275,3 +275,30 @@ nav{
     margin-left: 7rem;
     margin-top: 6rem;
 }
+
+ul{
+    /* border: 2px solid blue; */
+    margin-block: 5rem;
+}
+
+li{
+    color: white;
+    font-size: 28px;
+    font-family: "Lobster", sans-serif;
+    margin-block: 0.5rem;
+}
+
+.list >img{
+    width: 37rem;
+    margin-left: 13rem;
+    margin-top: 6rem;
+}
+
+.background >img{
+    width: 100%;
+    background-image: url(./image/spider.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 13rem; */
+    /* margin-top: 6rem; */
+}
