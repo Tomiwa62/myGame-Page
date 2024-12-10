@@ -288,17 +288,19 @@ li{
     margin-block: 0.5rem;
 }
 
-.list >img{
-    width: 37rem;
-    margin-left: 13rem;
-    margin-top: 6rem;
-}
-
-.background >img{
+.background{
     width: 100%;
-    background-image: url(./image/spider.jpeg);
+    background-image: url(./image/Spiders.jpeg);
     background-position: center;
     background-size: cover;
+    height: 55rem;
     /* margin-left: 13rem; */
     /* margin-top: 6rem; */
+}
+
+.images >img{
+    margin-left: 23rem;
+    margin-top: 10rem;
+    height: 90vh;
+    width: 35rem;
 }
