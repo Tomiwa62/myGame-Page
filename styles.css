@@ -233,3 +233,45 @@ nav{
     margin-left: 2rem;
     margin-top: 0.5rem;
 }
+
+.list{
+    /* border: 2px solid red; */
+    margin-block: 3rem;
+}
+
+.container{
+    /* border: 2px solid blue; */
+}
+
+.container >h2{
+    color: white;
+    font-size: 37px;
+     color: #b70c00;
+    font-family: "Lobster", sans-serif;
+}
+
+.container >h1{
+    color: white;
+    font-size: 38px;
+    font-family: "Princess Sofia", cursive;
+}
+
+.container >h5{
+    color: white;
+    margin-block: 1.5rem;
+    color: #b70c00;
+    border-bottom: 1.5px solid #b70c00;
+    width: 50rem;
+}
+
+.container >p{
+    color: white;
+    width: 40rem;
+    font-size: 22px;
+}
+
+.container >img{
+    width: 50rem;
+    margin-left: 7rem;
+    margin-top: 6rem;
+}
